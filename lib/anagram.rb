@@ -2,11 +2,11 @@ class Anagram
 
   attr_accessor :word
 
-  def initialize(word)
-    @word= word
+  def initialize(words)
+    @word= words
   end
 
-def self.match(word)
+def match(array)
 
 end
 
